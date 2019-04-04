@@ -11,7 +11,7 @@ image:
 env:
 
 # enable this flag to use knative serve to deploy the app
-knativeDeploy: true
+knativeDeploy: false
 
 service:
   name: officenode
@@ -39,4 +39,5 @@ readinessProbe:
   successThreshold: 1
   timeoutSeconds: 1
 terminationGracePeriodSeconds: 10
+
 
